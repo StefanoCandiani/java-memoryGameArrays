@@ -20,9 +20,14 @@ public class MemoryGame {
     public static void main(String[] args) {
         char[] deck = {'A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H'};
         boolean[] cardDrawn = {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,};
-        char[][] gridArea = new char[GRIDSIZE][GRIDSIZE];
+        char[] gridHeight = new char[GRIDSIZE];
+        char[] gridLength = new char[GRIDSIZE];
         
-        for(int i = 0; i < deck.length; i++){
+        for(int i = 1; i < gridHeight.length-1; i++){
+            for(int j = 1; j < gridLength.length-1; i++){
+                int random = (r.);
+                gridLength[j] = deck[]; 
+            }
             
         }
     }
